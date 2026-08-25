@@ -398,6 +398,7 @@ section[id]{ scroll-margin-top:90px; }
 .site-footer__brand{ display:flex; align-items:center; gap:12px; }
 .site-footer__brand img{ height:108px; width:auto; object-fit:contain; }
 .site-footer__brand div{ display:flex; flex-direction:column; font-size:.85rem; }
+.site-footer__links{ display:flex; flex-direction:column; gap:12px; }
 .site-footer__nav{ display:flex; gap:20px; flex-wrap:wrap; font-size:.82rem; }
 .site-footer__contact{ display:flex; flex-wrap:wrap; align-items:center; gap:8px 22px; font-size:.82rem; font-weight:600; color:var(--accent-deep); }
 .site-footer__contact a{ display:flex; align-items:center; gap:7px; transition:color .2s ease; }
