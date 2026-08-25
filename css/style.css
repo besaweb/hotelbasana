@@ -399,7 +399,10 @@ section[id]{ scroll-margin-top:90px; }
 .site-footer__brand img{ height:108px; width:auto; object-fit:contain; }
 .site-footer__brand div{ display:flex; flex-direction:column; font-size:.85rem; }
 .site-footer__nav{ display:flex; gap:20px; flex-wrap:wrap; font-size:.82rem; }
-.site-footer__contact{ display:flex; gap:18px; flex-wrap:wrap; font-size:.82rem; font-weight:600; color:var(--accent-deep); }
+.site-footer__contact{ display:flex; flex-direction:column; gap:10px; font-size:.82rem; font-weight:600; color:var(--accent-deep); }
+.site-footer__contact a{ display:flex; align-items:center; gap:8px; transition:color .2s ease; }
+.site-footer__contact a:hover{ color:var(--accent); }
+.site-footer__contact-icon{ width:16px; height:16px; flex-shrink:0; }
 .site-footer__social{ display:flex; gap:18px; font-size:.82rem; }
 .site-footer__copy{ max-width:var(--container); margin:22px auto 0; text-align:center; font-size:.76rem; color:var(--text-soft); }
 
