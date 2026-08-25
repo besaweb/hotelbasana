@@ -6,7 +6,7 @@
 - Funkční přepínač jazyků AL/EN (`js/i18n.js` + `js/script.js`) — texty se mění bez reloadu, `<html lang>` se aktualizuje, volba se pamatuje v localStorage. Albánský překlad je strojový (z EN) — doporučuji nechat před spuštěním zkontrolovat rodilým mluvčím.
 - Kontaktní formulář (`send-request.php`) — server-side validace, honeypot proti spamu, odesílá e-mail na `info@hotelbesana.al` přes PHP `mail()`. Frontend posílá AJAX (fetch) a zobrazuje přeložený stavový text.
 - WhatsApp float tlačítko a odkazy na `+355 69 552 0312`.
-- Google Maps embed (souřadnice 41.095605430808845, 19.458825603533537, zoom 19) + odkaz "Get Directions".
+- Google Maps embed (souřadnice 41.095605430808845, 19.458825603533537, zoom 7) + odkaz "Get Directions".
 - SEO: meta description, Open Graph, Twitter Card, JSON-LD `Hotel` schema, `robots.txt`, `sitemap.xml`.
 - Accessibility: skip-to-content odkaz, `aria-current` na aktivní sekci v menu, viditelný focus-ring, `aria-live` stavová hláška formuláře, honeypot pole skryté jen vizuálně (ne `display:none`) a vyloučené z tab-order.
 
