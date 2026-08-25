@@ -88,8 +88,8 @@
   document.querySelectorAll('.lang-switch__btn').forEach(function(btn){
     btn.addEventListener('click', function(){ applyLang(btn.getAttribute('data-lang')); });
   });
-  var savedLang = 'en';
-  try { savedLang = localStorage.getItem('basana-lang') || 'en'; } catch(e) {}
+  var savedLang = 'al';
+  try { savedLang = localStorage.getItem('basana-lang') || 'al'; } catch(e) {}
   applyLang(savedLang);
 
   // Request form — AJAX submit to send-request.php
