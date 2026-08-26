@@ -202,6 +202,16 @@ section[id]{ scroll-margin-top:90px; }
   .brand-logo.is-scrolled{ top:0; left:20px; padding:4px; }
   .brand-logo.is-scrolled img{ height:48px; }
 }
+/* Short browser windows: the hero title sits near a fixed vertical
+   position (hero has a 440px height floor), so on short viewports the
+   full-size logo would otherwise sit on top of it. Shrink it there. */
+@media (max-height:760px){
+  .brand-logo:not(.is-scrolled){ padding:8px; }
+  .brand-logo:not(.is-scrolled) img{ height:56px; }
+}
+@media (max-height:760px) and (max-width:640px){
+  .brand-logo:not(.is-scrolled) img{ height:44px; }
+}
 
 /* ---------- Experience bar ---------- */
 .experience{
