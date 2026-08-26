@@ -54,7 +54,7 @@ en: {
   "gal.eyebrow":"Gallery","gal.h2":"Hotel Basana, in pictures",
 
   "rev.eyebrow":"FOLLOW US","rev.h2":"Guests love the experience",
-  "rev.p":"Hotel Basana has reviews on Facebook and Instagram — once ratings and quotes are confirmed with the hotel, real guest feedback will replace this section. No reviews are invented for this prototype.",
+  "rev.p":"Real reviews from guests who stayed with us — see more on Google, Facebook and Instagram.",
 
   "req.eyebrow":"Get in touch","req.h2":"Ready for your stay in Spille?",
   "req.lead":"Tell us when you'd like to visit and we'll help you find the right stay at Hotel Basana.",
@@ -132,7 +132,7 @@ al: {
   "gal.eyebrow":"Galeria","gal.h2":"Hotel Basana, në foto",
 
   "rev.eyebrow":"NA NDIQNI","rev.h2":"Mysafirët e duan përvojën",
-  "rev.p":"Hotel Basana ka vlerësime në Facebook dhe Instagram — pasi vlerësimet dhe citimet të konfirmohen me hotelin, komentet reale të mysafirëve do të zëvendësojnë këtë seksion. Asnjë vlerësim nuk është shpikur për këtë prototip.",
+  "rev.p":"Vlerësime reale nga mysafirët tanë — shiko më shumë në Google, Facebook dhe Instagram.",
 
   "req.eyebrow":"Na kontaktoni","req.h2":"Gati për qëndrimin tënd në Spille?",
   "req.lead":"Na trego kur do të donit të vinit dhe ne do t'ju ndihmojmë të gjeni qëndrimin e duhur në Hotel Basana.",

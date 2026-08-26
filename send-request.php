@@ -14,8 +14,8 @@
 header('Content-Type: application/json; charset=utf-8');
 
 // ---- config -----------------------------------------------------------
-$to_email   = 'info@hotelbesana.al';
-$from_email = 'noreply@hotelbesana.al'; // should match the sending domain to avoid spam filtering
+$to_email   = 'info@hotelbasana.al';
+$from_email = 'noreply@hotelbasana.al'; // should match the sending domain to avoid spam filtering
 $site_name  = 'Hotel Basana';
 
 // ---- only accept POST --------------------------------------------------
