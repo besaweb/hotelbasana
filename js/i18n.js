@@ -8,9 +8,9 @@ en: {
   "cta.discoverRestaurant":"Discover the Restaurant",
 
   "hero.title":"Your Mediterranean Escape<br>in Spille",
-  "hero.subtitle":"A peaceful seaside stay just 50 meters from the sandy beach of Spille, Albania.",
+  "hero.subtitle":"A peaceful seaside stay just 100 meters from the sandy beach of Spille, Albania.",
 
-  "exp.item1.num":"50 m","exp.item1.label":"From the sea",
+  "exp.item1.num":"100 m","exp.item1.label":"From the sea",
   "exp.item2.num":"Private Beach","exp.item2.label":"Sun loungers &amp; parasols",
   "exp.item3.num":"Albanian Cuisine","exp.item3.label":"Local flavors, Mediterranean mix",
   "exp.item4.num":"Sea Views","exp.item4.label":"Selected accommodation",
@@ -28,7 +28,7 @@ en: {
   "room.seaview.title":"Sea View Apartment","room.seaview.desc":"A stay with the Mediterranean right in sight.",
   "rooms.note":"Room sizes and exact capacities will be confirmed before launch — figures shown are placeholders only.",
 
-  "beach.eyebrow":"The private beach","beach.h2":"The sea is just 50 meters away.",
+  "beach.eyebrow":"The private beach","beach.h2":"The sea is just 100 meters away.",
   "beach.p":"Step outside, walk a few minutes and you're at the sandy beach of Spille.",
   "beach.list1":"Sandy beach","beach.list2":"Free sun loungers","beach.list3":"Free parasols",
   "beach.list4":"Beach area for hotel guests",
@@ -47,7 +47,7 @@ en: {
   "dest.note":"Specific attractions and distances will be added once confirmed — placeholder copy for now.",
 
   "loc.eyebrow":"Getting here","loc.h2":"Close to the sea. Easy to reach.",
-  "loc.fact1.num":"50 m","loc.fact1.label":"to the sea",
+  "loc.fact1.num":"100 m","loc.fact1.label":"to the sea",
   "loc.fact2.num":"~70 km","loc.fact2.label":"from Tirana International Airport (approx. 1 hour)",
   "loc.fact3.num":"Spille","loc.fact3.label":"Albania","loc.directions":"Get Directions",
   "loc.addressLabel":"Address:",
@@ -100,7 +100,7 @@ en: {
   "common.location":"Spille, Albania",
 
   "meta.title":"Hotel Basana | Seaside Hotel in Spille, Albania",
-  "meta.description":"Hotel Basana — a small seaside hotel in Spille, Albania, just 50 meters from a sandy beach. Restaurant, bar, private beach and a relaxed Mediterranean stay."
+  "meta.description":"Hotel Basana — a small seaside hotel in Spille, Albania, just 100 meters from a sandy beach. Restaurant, bar, private beach and a relaxed Mediterranean stay."
 },
 al: {
   "nav.hotel":"Hoteli","nav.rooms":"Dhomat","nav.beach":"Plazhi","nav.restaurant":"Restoranti",
@@ -111,9 +111,9 @@ al: {
   "cta.discoverRestaurant":"Zbulo Restorantin",
 
   "hero.title":"Pushimi Yt Mesdhetar<br>në Spille",
-  "hero.subtitle":"Një qëndrim i qetë buzë detit, vetëm 50 metra nga plazhi me rërë i Spilesë, Shqipëri.",
+  "hero.subtitle":"100 m larg bregut të detit, në mes të gjelbërimit dhe rërës së artë. Hotel “Basana”, Spille — larg stresit dhe mërzitjeve të përditshme.",
 
-  "exp.item1.num":"50 m","exp.item1.label":"Nga deti",
+  "exp.item1.num":"100 m","exp.item1.label":"Nga deti",
   "exp.item2.num":"Plazh Privat","exp.item2.label":"Shezlonge dhe çadra",
   "exp.item3.num":"Kuzhinë Shqiptare","exp.item3.label":"Shije lokale, përzierje mesdhetare",
   "exp.item4.num":"Pamje nga Deti","exp.item4.label":"Në dhoma të zgjedhura",
@@ -131,7 +131,7 @@ al: {
   "room.seaview.title":"Apartament me Pamje nga Deti","room.seaview.desc":"Një qëndrim me Mesdheun pikërisht përpara syve.",
   "rooms.note":"Madhësitë e dhomave dhe kapacitetet e sakta do të konfirmohen para lancimit — shifrat e treguara janë vetëm ilustruese.",
 
-  "beach.eyebrow":"Plazhi privat","beach.h2":"Deti është vetëm 50 metra larg.",
+  "beach.eyebrow":"Plazhi privat","beach.h2":"Deti është vetëm 100 metra larg.",
   "beach.p":"Dil jashtë, ec pak minuta dhe je në plazhin me rërë të Spilesë.",
   "beach.list1":"Plazh me rërë","beach.list2":"Shezlonge falas","beach.list3":"Çadra falas",
   "beach.list4":"Hapësirë plazhi për mysafirët e hotelit",
@@ -150,7 +150,7 @@ al: {
   "dest.note":"Atraksionet specifike dhe distancat do të shtohen pas konfirmimit — teksti aktual është vetëm ilustrues.",
 
   "loc.eyebrow":"Si të vish","loc.h2":"Afër detit. E lehtë për t'u arritur.",
-  "loc.fact1.num":"50 m","loc.fact1.label":"deri te deti",
+  "loc.fact1.num":"100 m","loc.fact1.label":"deri te deti",
   "loc.fact2.num":"~70 km","loc.fact2.label":"nga Aeroporti Ndërkombëtar i Tiranës (rreth 1 orë)",
   "loc.fact3.num":"Spille","loc.fact3.label":"Shqipëri","loc.directions":"Merr Drejtimin",
   "loc.addressLabel":"Adresa:",
@@ -203,6 +203,6 @@ al: {
   "common.location":"Spille, Shqipëri",
 
   "meta.title":"Hotel Basana | Hotel buzë detit në Spille, Shqipëri",
-  "meta.description":"Hotel Basana — një hotel i vogël buzë detit në Spille, Shqipëri, vetëm 50 metra nga plazhi me rërë. Restorant, bar, plazh privat dhe një qëndrim mesdhetar i relaksuar."
+  "meta.description":"Hotel Basana — një hotel i vogël buzë detit në Spille, Shqipëri, vetëm 100 metra nga plazhi me rërë. Restorant, bar, plazh privat dhe një qëndrim mesdhetar i relaksuar."
 }
 };
