@@ -151,6 +151,9 @@
       <path fill="#FBBC05" d="M11.5 27.9c-.5-1.3-.7-2.7-.7-4.1s.3-2.8.7-4.1v-5.8H4.2C2.8 16.7 2 20.2 2 23.8s.8 7.1 2.2 9.9z"/>
       <path fill="#EA4335" d="M24 10.7c3.3 0 6.2 1.1 8.5 3.3l6.3-6.3C34.9 3.9 30 2 24 2 15.3 2 7.9 6.9 4.2 13.9l7.3 5.8c1.8-5.3 6.7-9 12.5-9z"/>
     </symbol>
+    <symbol id="icon-globe" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="12" cy="12" r="9.3"/><path d="M2.7 12h18.6M12 2.7c2.4 2.5 3.7 5.8 3.7 9.3s-1.3 6.8-3.7 9.3c-2.4-2.5-3.7-5.8-3.7-9.3S9.6 5.2 12 2.7z"/>
+    </symbol>
   </defs>
 </svg>
 
@@ -166,13 +169,12 @@
     <nav class="site-nav__links" id="navLinks">
       <a href="#hotel" data-i18n="nav.hotel">Hotel</a>
       <a href="#rooms" data-i18n="nav.rooms">Rooms</a>
-      <a href="#beach" data-i18n="nav.beach">Beach</a>
       <a href="#restaurant" data-i18n="nav.restaurant">Restaurant</a>
       <a href="#facilities" data-i18n="nav.facilities">Facilities</a>
       <a href="#gallery" data-i18n="nav.gallery">Gallery</a>
       <a href="#reviews" data-i18n="nav.reviews">Reviews</a>
-      <a href="#location" data-i18n="nav.location">Location</a>
-      <a href="#contact" data-i18n="nav.contact">Contact</a>
+      <a href="#location" data-i18n="nav.contact">Contact</a>
+      <a href="#faq" data-i18n="nav.faq">FAQ</a>
     </nav>
     <div class="site-nav__right">
       <div class="lang-switch" role="group" aria-label="Language">
@@ -188,13 +190,12 @@
   <nav class="mobile-menu" id="mobileMenu">
     <a href="#hotel" data-i18n="nav.hotel">Hotel</a>
     <a href="#rooms" data-i18n="nav.rooms">Rooms</a>
-    <a href="#beach" data-i18n="nav.beach">Beach</a>
     <a href="#restaurant" data-i18n="nav.restaurant">Restaurant</a>
     <a href="#facilities" data-i18n="nav.facilities">Facilities</a>
     <a href="#gallery" data-i18n="nav.gallery">Gallery</a>
     <a href="#reviews" data-i18n="nav.reviews">Reviews</a>
-    <a href="#location" data-i18n="nav.location">Location</a>
-    <a href="#contact" data-i18n="nav.contact">Contact</a>
+    <a href="#location" data-i18n="nav.contact">Contact</a>
+    <a href="#faq" data-i18n="nav.faq">FAQ</a>
     <div class="lang-switch lang-switch--mobile" role="group" aria-label="Language">
       <button type="button" class="lang-switch__btn is-active" data-lang="al" aria-pressed="true">AL</button>
       <button type="button" class="lang-switch__btn" data-lang="en" aria-pressed="false">EN</button>
@@ -389,6 +390,20 @@
         <span data-i18n="loc.fact1.label">to the sea</span>
       </div>
     </div>
+    <div class="location__details" data-reveal>
+      <p class="location__address">
+        <svg class="location__detail-icon"><use href="#icon-pin"/></svg>
+        <span data-i18n="loc.addressLabel">Address:</span> Rruga e Pishave, Rrogozhinë, Albania, 2510
+      </p>
+      <div class="location__contact">
+        <a href="tel:+355695520312"><svg class="location__detail-icon"><use href="#icon-phone"/></svg>+355 69 552 0312</a>
+        <a href="https://www.hotelbasana.al" target="_blank" rel="noopener"><svg class="location__detail-icon"><use href="#icon-globe"/></svg>www.hotelbasana.al</a>
+        <a href="mailto:info@hotelbasana.al"><svg class="location__detail-icon"><use href="#icon-mail"/></svg>info@hotelbasana.al</a>
+        <a href="https://wa.me/355695520312" target="_blank" rel="noopener"><svg class="location__detail-icon"><use href="#icon-whatsapp"/></svg>WhatsApp</a>
+        <a href="https://www.instagram.com/hotel_basana/" target="_blank" rel="noopener"><svg class="location__detail-icon"><use href="#icon-instagram"/></svg>Instagram</a>
+        <a href="https://www.facebook.com/basanahotel/" target="_blank" rel="noopener"><svg class="location__detail-icon"><use href="#icon-facebook"/></svg>Facebook</a>
+      </div>
+    </div>
     <div class="location__map">
       <iframe src="https://www.google.com/maps?q=41.095605430808845,19.458825603533537&z=7&output=embed" width="100%" height="100%" style="border:0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Hotel Basana location on Google Maps"></iframe>
     </div>
@@ -484,7 +499,61 @@
   </div>
 </section>
 
-<!-- ================= 12 REQUEST YOUR STAY ================= -->
+<!-- ================= 12 FAQ ================= -->
+<section class="faq" id="faq">
+  <div class="section-head" data-reveal>
+    <p class="eyebrow" data-i18n="faq.eyebrow">FAQ</p>
+    <h2 data-i18n="faq.h2">Frequently asked questions</h2>
+  </div>
+  <div class="faq__list" data-reveal>
+    <details class="faq__item">
+      <summary data-i18n="faq.q1">Can I pay by card at the hotel?</summary>
+      <p data-i18n="faq.a1">Yes, you can pay by card at the hotel. We accept the common payment cards.</p>
+    </details>
+    <details class="faq__item">
+      <summary data-i18n="faq.q2">Do you have your own parking?</summary>
+      <p data-i18n="faq.a2">Yes, guests can use parking right at the hotel. We recommend confirming space availability when booking.</p>
+    </details>
+    <details class="faq__item">
+      <summary data-i18n="faq.q3">Are pets allowed at the hotel?</summary>
+      <p data-i18n="faq.a3">No, pets are not allowed at our hotel.</p>
+    </details>
+    <details class="faq__item">
+      <summary data-i18n="faq.q4">What are the check-in and check-out times?</summary>
+      <p data-i18n="faq.a4">Check-in is from 2:00 PM and check-out until 10:00 AM. If you need a different time, contact us and we'll try to accommodate you.</p>
+    </details>
+    <details class="faq__item">
+      <summary data-i18n="faq.q5">Do you offer breakfast?</summary>
+      <p data-i18n="faq.a5">Yes, the hotel offers breakfast. We'll be happy to share the current offer and price when you book.</p>
+    </details>
+    <details class="faq__item">
+      <summary data-i18n="faq.q6">Is Wi-Fi free at the hotel?</summary>
+      <p data-i18n="faq.a6">Yes, Wi-Fi access is free for hotel guests.</p>
+    </details>
+    <details class="faq__item">
+      <summary data-i18n="faq.q7">How far is the hotel from the beach?</summary>
+      <p data-i18n="faq.a7">The hotel is located close to the beach. You'll find the exact distance and information about the nearest beaches in the Location section.</p>
+    </details>
+    <details class="faq__item">
+      <summary data-i18n="faq.q8">Can I book a room for one night?</summary>
+      <p data-i18n="faq.a8">Yes, a one-night stay is possible depending on current availability.</p>
+    </details>
+    <details class="faq__item">
+      <summary data-i18n="faq.q9">Can I arrive late in the evening?</summary>
+      <p data-i18n="faq.a9">A later arrival is possible by prior arrangement. Please let us know your expected arrival time when booking.</p>
+    </details>
+    <details class="faq__item">
+      <summary data-i18n="faq.q10">Can I cancel my reservation?</summary>
+      <p data-i18n="faq.a10">Cancellation terms depend on the specific reservation. The exact conditions are shown at booking or we'll let you know before your stay is confirmed.</p>
+    </details>
+    <details class="faq__item">
+      <summary data-i18n="faq.q11">How can I contact the hotel?</summary>
+      <p data-i18n="faq.a11">You can contact us by phone, email, or through the contact form on this website.</p>
+    </details>
+  </div>
+</section>
+
+<!-- ================= 13 REQUEST YOUR STAY ================= -->
 <section class="request" id="request">
   <div class="section-head" data-reveal>
     <p class="eyebrow" data-i18n="req.eyebrow">Get in touch</p>
@@ -540,7 +609,7 @@
 
 </main>
 
-<!-- ================= 13 FOOTER / CONTACT ================= -->
+<!-- ================= 14 FOOTER / CONTACT ================= -->
 <footer class="site-footer" id="contact">
   <div class="site-footer__inner">
     <div class="site-footer__brand">
@@ -554,12 +623,12 @@
       <nav class="site-footer__nav">
         <a href="#hotel" data-i18n="nav.hotel">Hotel</a>
         <a href="#rooms" data-i18n="nav.rooms">Rooms</a>
-        <a href="#beach" data-i18n="nav.beach">Beach</a>
         <a href="#restaurant" data-i18n="nav.restaurant">Restaurant</a>
         <a href="#facilities" data-i18n="nav.facilities">Facilities</a>
         <a href="#gallery" data-i18n="nav.gallery">Gallery</a>
         <a href="#reviews" data-i18n="nav.reviews">Reviews</a>
-        <a href="#location" data-i18n="nav.location">Location</a>
+        <a href="#location" data-i18n="nav.contact">Contact</a>
+        <a href="#faq" data-i18n="nav.faq">FAQ</a>
       </nav>
       <div class="site-footer__contact">
         <a href="tel:+355695520312"><svg class="site-footer__contact-icon"><use href="#icon-phone"/></svg>+355 69 552 0312</a>
